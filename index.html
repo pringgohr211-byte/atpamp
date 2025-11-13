@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Learning Curriculum Generator</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        font-family: 'Inter', sans-serif;
+      }
+      /* Custom scrollbar styles */
+      ::-webkit-scrollbar {
+          width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+          background: #f1f5f9; /* slate-100 */
+      }
+      ::-webkit-scrollbar-thumb {
+          background: #94a3b8; /* slate-400 */
+          border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+          background: #64748b; /* slate-600 */
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.29.0",
+    "react-markdown": "https://aistudiocdn.com/react-markdown@^10.1.0",
+    "remark-gfm": "https://aistudiocdn.com/remark-gfm@^4.0.1",
+    "@heroicons/react/": "https://aistudiocdn.com/@heroicons/react@^2.2.0/",
+    "docx": "https://aistudiocdn.com/docx@^7.0.0"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-50 text-gray-900 antialiased min-h-screen flex flex-col">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

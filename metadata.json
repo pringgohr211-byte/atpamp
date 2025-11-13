@@ -1,0 +1,5 @@
+{
+  "name": "Deep Learning Curriculum Generator",
+  "description": "An application to generate Deep Learning Learning Objectives (Tujuan Pembelajaran Mendalam) and Deep Learning Lesson Plans (Perencanaan Pembelajaran Mendalam) integrated with a love-based curriculum (Kurikulum Berbasis Cinta), powered by Gemini AI.",
+  "requestFramePermissions": []
+}
